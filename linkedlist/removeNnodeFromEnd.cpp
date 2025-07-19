@@ -1,3 +1,17 @@
+#include <iostream>
+using namespace std;
+
+class ListNode // linked list ListNode
+{
+public:
+    int val;
+    ListNode *next;
+    ListNode(int val)
+    {
+        this->val = val;
+        this->next = NULL;
+    }
+};
 class Solution
 {
 public:
